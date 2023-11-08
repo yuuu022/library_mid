@@ -19,11 +19,10 @@
                             <h3>Menu</h3>
                         </div>
                         <div class="card-body">
-                            <div class='list-group'style="background-color:#102C57">
+                            <div class='list-group'>
                                 <a href='/' class='list-group-item'>HOME</a>
-                                <a href='https://www.ncl.edu.tw/' class='list-group-item'>國家圖書館官網</a>
-                                <a href='https://books.google.com.tw/' class='list-group-item'>Google圖書</a>
-                                <a href='https://www.books.com.tw/?gad_source=1&gclid=Cj0KCQjwhfipBhCqARIsAH9msbmLWMHGfCjkb4KG1WgoYhrc4CC4vdOaqbge5ZxcGjxxvwV9Trg2RegaAtsKEALw_wcB' class='list-group-item'>博客來網路書店</a>
+                                <a class='list-group-item'>最新消息</a>
+                                <a class='list-group-item'>文藝活動</a>
                             </div>
                         </div>
                     </div>
@@ -45,14 +44,14 @@
                 </div>
                 <div class="col-sm-9 col-md-9">
                     <div class="card">
-                        <div class="card-header">
+                        <div class="card-header"style="background-color:#D2E9E9">
                             {% block headmessage %} 
                             {% endblock %}
                         </div>
                         <div class="card-body">
                             {% block content %} {% endblock %}
                         </div>
-                        <div class="card-footer">
+                        <div class="card-footer"style="background-color:#D2E9E9">
                             {% include 'footer.html' %}
                         </div>
                     </div>
