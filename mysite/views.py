@@ -16,3 +16,6 @@ def showpost(request,slug):
         return render(request,'post.html',locals())
     else:
         return redirect("/")
+
+def newinformation(request):
+    return render(request, 'newinformation.html')
